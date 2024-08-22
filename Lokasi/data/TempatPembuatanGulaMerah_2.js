@@ -1,0 +1,1 @@
+var json_TempatPembuatanGulaMerah_2 = {"type":"FeatureCollection","name":"TempatPembuatanGulaMerah_2","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"5","Nama":"Pembuatan Gula Merah","Lokasi":"Dusun Ujung Baru"},"geometry":{"type":"MultiPoint","coordinates":[[119.527262387395922,-0.98991161899633]]}}]}
