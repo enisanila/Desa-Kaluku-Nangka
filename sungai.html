@@ -157,7 +157,6 @@
                     <h4 class="sub-title px-3 mb-0" style="font-size: 35px; margin-bottom: 100px;">Potensi Desa Kaluku
                         Nangka</h4>
                 </div>
-
             </div>
             <div class="row wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-md-12">
@@ -167,48 +166,79 @@
                             <!-- Kurangi padding pada container video -->
                             <div class="container" style="padding-top: 20px; padding-bottom: 0;">
                                 <div class="section-title mb-3 wow fadeInUp" data-wow-delay="0.1s">
-                                  <div class="col-lg-4 col-md-6">
-                   <iframe width="560" height="315" src="https://www.youtube.com/embed/P7KCDqq5Qw4" 
-                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
-                                    <p>Keindahan Sungai Bambatunu Desa Kaluku Nangka</p>
+                                    <div class="col-lg-6 col-md-8 mx-auto">
+                                        <!-- Tambahkan kelas embed-responsive untuk video responsif -->
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item"
+                                                src="https://www.youtube.com/embed/P7KCDqq5Qw4"
+                                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                                                clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen>
+                                            </iframe>
+                                        </div>
+                                        <p class="mt-2">Keindahan Sungai Bambatunu Desa Kaluku Nangka</p>
+                                    </div>
                                 </div>
+                                <!-- Kurangi atau hilangkan margin pada paragraf deskripsi -->
+                                <p class="text-justify" style="margin-top: 20px;">Selamat datang di keindahan alam
+                                    Sulawesi Barat, tepatnya di Wisata Alam Sungai Bambatunu, tersembunyi di Desa Kaluku
+                                    Nangka, Kecamatan Bambaira, Kabupaten Pasangkayu! Dengan jarak sekitar 20 km dari
+                                    pusat kabupaten, Anda akan menikmati perjalanan sekitar 50 menit dengan motor menuju
+                                    ke destinasi ajaib ini.<br>
+
+                                    Pemerintah Desa Kaluku Nangka kini tengah menyiapkan kejutan ekstrem untuk Anda.
+                                    Bersiaplah untuk pengalaman luar biasa dengan pembukaan jalur rafting/arum jeram dan
+                                    flying fox di kawasan Sungai Bambatunu. Dengan adanya kegiatan seru ini, kami tidak
+                                    hanya menawarkan pesona alam yang memikat, tetapi juga sensasi petualangan yang
+                                    menggetarkan hati.<br>
+
+                                    Nikmati keunikan pengalaman rafting/arum jeram menyusuri sungai yang memacu
+                                    adrenalin, atau rasakan kebebasan meluncur di langit dengan flying fox. Inilah
+                                    kesempatan Anda untuk merasakan petualangan yang belum pernah Anda alami
+                                    sebelumnya.<br>
+
+                                    Selain memberikan kenangan tak terlupakan, kehadiran kegiatan rafting/arum jeram dan
+                                    flying fox di Sungai Bambatunu juga bertujuan untuk menghidupkan perekonomian Desa
+                                    Kaluku Nangka. Dengan dukungan Anda, kami berharap dapat menjadi destinasi yang
+                                    berbeda dan memberikan dampak positif bagi pertumbuhan ekonomi lokal.<br>
+
+                                    Jadi, persiapkan diri Anda untuk petualangan tak terlupakan di Wisata Alam Sungai
+                                    Bambatunu. Mari bergabung dalam keindahan alam dan sensasi ekstrem yang kami
+                                    tawarkan, karena di sini, petualangan tidak pernah berakhir!..<br>
+                                </p>
                             </div>
-                            <!-- Kurangi atau hilangkan margin pada paragraf deskripsi -->
-                            <p class="text-justify" style="margin-top: 20px;">Selamat datang di keindahan alam Sulawesi
-                                Barat, tepatnya di
-                                Wisata Alam Sungai Bambatunu, tersembunyi di Desa Kaluku Nangka, Kecamatan Bambaira,
-                                Kabupaten Pasangkayu! Dengan jarak sekitar 20 km dari pusat kabupaten,
-                                Anda akan menikmati perjalanan sekitar 50 menit dengan motor menuju ke destinasi ajaib
-                                ini.<br>
-
-                                Pemerintah Desa Kaluku Nangka kini tengah menyiapkan kejutan ekstrem untuk Anda.
-                                Bersiaplah untuk pengalaman luar biasa dengan pembukaan jalur rafting/arum jeram
-                                dan fying fox di kawasan Sungai Bambatunu. Dengan adanya kegiatan seru ini, kami
-                                tidak hanya menawarkan pesona alam yang memikat, tetapi juga sensasi petualangan
-                                yang menggetarkan hati.<br>
-
-                                Nikmati keunikan pengalaman rafting/arum jeram menyusuri sungai yang memacu
-                                adrenalin, atau rasakan kebebasan meluncur di langit dengan fying fox. Inilah
-                                kesempatan Anda untuk merasakan petualangan yang belum pernah Anda alami
-                                sebelumnya.<br>
-
-                                Selain memberikan kenangan tak terlupakan, kehadiran kegiatan rafting/arum jeram
-                                dan fying fox di Sungai Bambatunu juga bertujuan untuk menghidupkan perekonomian
-                                Desa Kaluku Nangka. Dengan dukungan Anda, kami berharap dapat menjadi destinasi
-                                yang berbeda dan memberikan dampak positif bagi pertumbuhan ekonomi lokal.<br>
-
-                                Jadi, persiapkan diri Anda untuk petualangan tak terlupakan di Wisata Alam
-                                Sungai Bambatunu. Mari bergabung dalam keindahan alam dan sensasi ekstrem yang
-                                kami tawarkan, karena di sini, petualangan tidak pernah berakhir!..<br></p>
                         </div>
+                        <style>
+                            .text-justify {
+                                text-align: justify;
+                            }
+
+                            .embed-responsive {
+                                position: relative;
+                                display: block;
+                                width: 100%;
+                                padding: 0;
+                                overflow: hidden;
+                            }
+
+                            .embed-responsive::before {
+                                content: "";
+                                display: block;
+                                padding-top: 56.25%;
+                                /* 16:9 aspect ratio */
+                            }
+
+                            .embed-responsive .embed-responsive-item {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                bottom: 0;
+                                height: 100%;
+                                width: 100%;
+                                border: 0;
+                            }
+                        </style>
                     </div>
-                    <style>
-                        .text-justify {
-                            text-align: justify;
-                        }
-                    </style>
                 </div>
             </div>
         </div>
